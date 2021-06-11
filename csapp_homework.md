@@ -25,3 +25,10 @@ int tsub_ok(int x, int y){
 }
 ```
 
+
+
+2.33:
+
+for a number x(int), if x == tmin, -x == tmin, the other is -x
+
+for a number x(uint), if x == 0, -x = 0; the other is pow(2,w)-x
